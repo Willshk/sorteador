@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Sorteador</title>
+</head>
+<body>
+    <h1>Validando</h1>
+    <div class="card">
+    <div class="fields">
+        <div class="input-group">
+            <label>Total de Resultados</label>
+            <input type="number" value="1" id="ttotal">
+        </div>
+        <div class="input-group">
+            <label>Menor valor</label>
+            <input type="number" value="1" id="tmenor">
+        </div>
+        <div class="input-group">
+            <label>Maior Valor</label>
+            <input type="number" value="1" id="tmaior">
+        </div>
+        <button id="sort" onmouseenter="entrou()" onclick="sortear()">Sortear</button>
+    </div>
+    <div class="results">
+        <h2>Resultado</h2>
+        <div class="results-values">
+            <!-- <div class="result-value">12</div>
+            <div class="result-value">20</div> -->
+        </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
